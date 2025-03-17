@@ -1,0 +1,35 @@
+:root {
+    --primary-font: 'Gilroy-Light', Roboto, "Helvetica Neue", Arial, sans-serif;
+    --bold-font: 'Gilroy-Regular', Roboto, "Helvetica Neue", Arial, sans-serif;
+    --heading-color: #333;
+    --font-size: 16px;
+    --bg-color: ghostwhite; /* bento color */
+    --text-color: #333333;
+    --header-bg: rgba(255, 255, 255, 0.8);
+    --box-bg: #f0f0f0;
+    font-family: var(--primary-font);
+    --bg-color-mario: #f1fdff;
+}
+
+
+body {
+    color: var(--text-color);
+    font-size: var(--font-size);
+    background-color: white; /* background color */
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    --bg-color: #333333; /* bento color */
+    --text-color: #ffffff;
+    --header-bg: rgba(51, 51, 51, 0.8);
+    --box-bg: #4a4a4a;
+    background-color: #2e2e2e;  /* background color */
+    --bg-color-mario: #333333;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading-color);
+}
