@@ -35,6 +35,15 @@ body {
     font-size: 150%;
 }
 
+
+.pp-p5 {
+    padding: 23px;
+    font-weight: 300;
+    max-width: 90%;
+    text-align: center;
+    font-size: 100%;
+}
+
 .policy-section {
     background-color: var(--bg-color);
     color: var(--text-color);
